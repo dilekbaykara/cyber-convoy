@@ -1,6 +1,6 @@
 {
+  "homepage": "https://dilekbaykara.github.io/cyber-convoy",
   "name": "cyber-convoy",
-  "homepage": "https://dilekbaykara.github.io/cyber-convoy/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
