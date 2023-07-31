@@ -1,3 +1,7 @@
+* {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
 }
@@ -14,8 +18,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +37,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  height: 250px;
+}
+
+#images-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }

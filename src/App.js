@@ -1,26 +1,22 @@
 import logo from "./logo.svg";
+import GetPics from "./GetPics";
 import "./App.css";
-const img = document.querySelector("img");
-fetch("https://api.unsplash.com/photos/?client_id=", {
-  mode: "cors",
-}).then(function (response) {
-  console.log(response.json());
-});
+// const img = document.querySelector("img");
+// fetch(
+//   `https://api.unsplash.com/photos/?client_id=${process.env.REACT_APP_API_KEY}`,
+//   {
+//     mode: "cors",
+//   }
+// ).then(function (response) {
+//   console.log(response.json());
+// });
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={img} alt="" />
-        <p></p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header className="App-header">cyberconvoy.dev</header>
+      <div>
+        <GetPics />
+      </div>
     </div>
   );
 }
