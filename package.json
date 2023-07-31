@@ -1,5 +1,6 @@
 {
   "name": "cyber-convoy",
+  "homepage": "https://dilekbaykara.github.io/cyber-convoy/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
